@@ -163,7 +163,7 @@ Refer to the specs in the _test_ folder for more usage examples.
 
 - Node children may be ordered, that is insertion into the child list is performed in order of increasing value, left-to-right.  A tree has ordered nodes by default, although this may be disabled, if desired.  Ordering extends **only** to the direct children of a node.
 
-- Node children are internally represented as a doubly-linked list with _head_ and _tail_ accessors.  This allows ordered children to be traversed by ascending or descening value, depending on application requirements.
+- Node children are internally represented as a doubly-linked list with _head_ and _tail_ accessors.  This allows ordered children to be traversed by ascending or descending value, depending on application requirements.
 
 - Recall that inorder traversal is not uniquely defined for a general tree (unlike the binary AVL tree), so the _TSMT$Tree<T>_ class only contains preorder, postorder, and level-order (or BFS) traversals.
 
